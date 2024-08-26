@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import "./index.css";
 function App() {
   return (
-    <div className="App font-Slabo">
+    <div className="App font-Poppins">
       <Navbar />
       <Header />
       <TechStack />

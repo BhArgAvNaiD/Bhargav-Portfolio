@@ -10,8 +10,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Slabo: ['"Slabo 13px"', "serif"],
-        Nunito: ["Nunito", "sans - serif"],
+        Dmsans: ["DM Sans", "sans-serif"],
+        Poppins: ["Poppins", "sans-serif"],
       },
     },
   },
