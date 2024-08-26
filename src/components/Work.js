@@ -3,7 +3,7 @@ import React from "react";
 const Work = () => {
   return (
     <div className="bg-white" id="Work">
-      <div className="relative isolate px-6 lg:px-8">
+      <div className="relative isolate px-1 lg:px-8">
         <div
           aria-hidden="true"
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -34,7 +34,7 @@ const Work = () => {
                 </p>
               </div>
 
-              <ul className="text-left list-disc marker:text-gray-600 pl-5">
+              <ul className="text-left list-disc marker:text-gray-600">
                 <li className="mt-6 text-md sm:text-lg leading-8 font-semibold text-gray-600">
                   Sky Goal is an India-based Global Edtech platform that helps
                   students seeking admissions to institutions simply.

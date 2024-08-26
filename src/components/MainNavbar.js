@@ -16,21 +16,17 @@ export default function MainNavbar() {
 
   const menuItems = [
     { tag: "HOME", too: "/#Home" },
-    { tag: "Work", too: "/#Work" },
+    { tag: "WORK", too: "/#Work" },
     { tag: "SKILLS", too: "/#Skills" },
-    { tag: "PROJECTS", too: "/Projects" },
+    { tag: "PROJECTS", too: "/#Projects" },
   ];
 
   return (
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
-      className="bg-transparent shadow-sm shadow-slate-400 text-black m-0 w-full scroll-smooth"
+      className="bg-transparent shadow-sm shadow-slate-400 text-black m-0 w-full scroll-smooth flex flex-col justify-center items-center"
     >
       <NavbarContent>
-        <NavbarMenuToggle
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="md:hidden"
-        />
         <NavbarBrand>
           {/* <MbnLogo /> */}
           <p className="font-bold text-inherit text-xl">MBN</p>
@@ -59,14 +55,16 @@ export default function MainNavbar() {
           </Link>
         </NavbarItem>
       </NavbarContent>
-
-      <NavbarMenu className="bg-transparent">
+      <NavbarMenuToggle
+        aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+        className="md:hidden"
+      />
+      <NavbarMenu className="bg-transparent flex justify-start mt-5 items-center">
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
-              to={item.too}
               className="w-full text-black font-bold"
-              href="#"
+              href={item.too}
               size="lg"
             >
               {item.tag}

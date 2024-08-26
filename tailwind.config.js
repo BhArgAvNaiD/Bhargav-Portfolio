@@ -1,4 +1,3 @@
-// tailwind.config.js
 const { nextui } = require("@nextui-org/react");
 
 /** @type {import('tailwindcss').Config} */
@@ -8,7 +7,13 @@ module.exports = {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {},
+  theme: {
+    extend: {
+      fontFamily: {
+        Slabo: ['"Slabo 13px"', "serif"],
+      },
+    },
+  },
   darkMode: "class",
   plugins: [nextui()],
 };

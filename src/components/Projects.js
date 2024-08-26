@@ -6,7 +6,6 @@ import {
   CardFooter,
   Divider,
   Link,
-  Image,
 } from "@nextui-org/react";
 
 export default function Projects() {
@@ -33,13 +32,6 @@ export default function Projects() {
         <div className="flex justify-between flex-wrap gap-5 px-5 mt-16">
           <Card className="max-w-[400px]">
             <CardHeader className="flex gap-3">
-              {/* <Image
-            alt="nextui logo"
-            height={40}
-            radius="sm"
-            src="https://avatars.githubusercontent.com/u/86160567?s=200&v=4"
-            width={40}
-          /> */}
               <div className="flex flex-col">
                 <p className="text-md font-semibold">COLLEGE PORTAL</p>
                 <p className="text-small text-default-500">
@@ -62,7 +54,7 @@ export default function Projects() {
               <Link
                 isExternal
                 showAnchorIcon
-                href="https://github.com/maradabhargavnaidu/nextui"
+                href="https://github.com/maradabhargavnaidu/vasavi-dashboard"
                 className="cursor-pointer"
               >
                 GitHub.
@@ -70,7 +62,7 @@ export default function Projects() {
               <Link
                 isExternal
                 showAnchorIcon
-                href="https://yaatra.onrender.com/"
+                href="https://cllgportal.netlify.app"
                 className="cursor-pointer"
               >
                 Live.
@@ -79,13 +71,6 @@ export default function Projects() {
           </Card>
           <Card className="max-w-[400px]">
             <CardHeader className="flex gap-3">
-              {/* <Image
-            alt="nextui logo"
-            height={40}
-            radius="sm"
-            src="https://avatars.githubusercontent.com/u/86160567?s=200&v=4"
-            width={40}
-          /> */}
               <div className="flex flex-col">
                 <p className="text-md font-semibold">YAATRA</p>
                 <p className="text-small text-default-500">
@@ -107,7 +92,7 @@ export default function Projects() {
               <Link
                 isExternal
                 showAnchorIcon
-                to="https://github.com/maradabhargavnaidu/nextui"
+                href="https://github.com/maradabhargavnaidu/Yaatra"
                 className="cursor-pointer"
               >
                 GitHub.
