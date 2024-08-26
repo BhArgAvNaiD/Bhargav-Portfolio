@@ -25,7 +25,7 @@ const Footer = () => {
               </span>
             </p>
             <p className="text-xl">Stay Connected</p>
-            <div className="md:text-4xl space-x-5 text-2xl cursor-pointer inline bg-gradient-to-r from-indigo-600 via-indigo-600 to-indigo-400 bg-clip-text font-display tracking-tight text-transparent">
+            <div className="md:text-4xl space-x-5 text-2xl cursor-pointer  bg-gradient-to-r from-indigo-600 via-indigo-600 to-indigo-400 bg-clip-text font-display tracking-tight text-transparent">
               <a href="https://github.com/maradabhargavnaidu">
                 <i className="devicon-github-original"></i>
               </a>

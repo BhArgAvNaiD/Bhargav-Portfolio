@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       fontFamily: {
         Slabo: ['"Slabo 13px"', "serif"],
+        Nunito: ["Nunito", "sans - serif"],
       },
     },
   },

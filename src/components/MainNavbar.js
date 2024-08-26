@@ -29,13 +29,15 @@ export default function MainNavbar() {
       <NavbarContent>
         <NavbarBrand>
           {/* <MbnLogo /> */}
-          <p className="font-bold text-inherit text-xl">MBN</p>
+          <Link href="/" className="font-bold text-inherit text-xl">
+            MBN
+          </Link>
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="md:flex gap-4 hidden" justify="end">
         <NavbarItem>
-          <Link href="/#Home" className="text-black text-md font-bold">
+          <Link href="/" className="text-black text-md font-bold">
             HOME
           </Link>
         </NavbarItem>
