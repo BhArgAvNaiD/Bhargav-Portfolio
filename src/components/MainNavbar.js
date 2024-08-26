@@ -59,7 +59,7 @@ export default function MainNavbar() {
         aria-label={isMenuOpen ? "Close menu" : "Open menu"}
         className="md:hidden"
       />
-      <NavbarMenu className="bg-transparent flex justify-start mt-5 items-center">
+      <NavbarMenu className="bg-transparent flex justify-start pt-10 items-center">
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
