@@ -18,7 +18,7 @@ const Work = () => {
         </div>
         <div className=" scroll-smooth py-28" id="Work">
           <div className="container mx-auto max-w-4xl px-5">
-            <p className=" text-black font-semibold text-3xl sm:text-4xl underline text-center mb-5">
+            <p className=" text-black font-bold text-3xl sm:text-4xl underline text-center mb-5">
               WORK
             </p>
             <div className="space-y-5 py-8 text-left">
