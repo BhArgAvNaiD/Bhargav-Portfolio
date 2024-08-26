@@ -12,24 +12,27 @@ import {
 } from "@nextui-org/react";
 
 export default function MainNavbar() {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  // const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    { tag: "HOME", too: "/#Home" },
-    { tag: "WORK", too: "/#Work" },
-    { tag: "SKILLS", too: "/#Skills" },
-    { tag: "PROJECTS", too: "/#Projects" },
+    { tag: "HOME", to: "/#Home" },
+    { tag: "WORK", to: "/#Work" },
+    { tag: "SKILLS", to: "/#Skills" },
+    { tag: "PROJECTS", to: "/#Projects" },
   ];
 
+  // const handleMenuItemClick = () => {
+  //   setIsMenuOpen(!isMenuOpen);
+  // };
+
   return (
-    <Navbar
-      onMenuOpenChange={setIsMenuOpen}
-      className="bg-transparent shadow-sm shadow-slate-400 text-black m-0 w-full scroll-smooth flex flex-col justify-center items-center"
-    >
+    <Navbar className="bg-transparent shadow-sm shadow-slate-400 text-black m-0 w-full scroll-smooth flex flex-col justify-center items-center">
       <NavbarContent>
         <NavbarBrand>
-          {/* <MbnLogo /> */}
-          <Link href="/" className="font-bold text-inherit text-xl">
+          <Link
+            href="/"
+            className="font-Poppins font-bold text-inherit text-xl"
+          >
             MBN
           </Link>
         </NavbarBrand>
@@ -57,16 +60,18 @@ export default function MainNavbar() {
           </Link>
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenuToggle
-        aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-        className="md:hidden"
-      />
-      <NavbarMenu className="bg-transparent flex justify-start pt-10 items-center">
+
+      <NavbarMenuToggle className="md:hidden" />
+
+      <NavbarMenu className="bg-transparent font-Dmsans flex justify-start pt-10 items-center">
         {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
+          <NavbarMenuItem
+            key={`${item}-${index}`}
+            // onClick={handleMenuItemClick}
+          >
             <Link
-              className="w-full text-black font-bold"
-              href={item.too}
+              className="w-full font-Poppins text-black font-bold"
+              href={item.to}
               size="lg"
             >
               {item.tag}
