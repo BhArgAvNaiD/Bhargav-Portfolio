@@ -4,7 +4,7 @@ const TechStack = () => {
   return (
     <div className="bg-indigo-600 scroll-smooth" id="Skills">
       <div className="relative isolate px-6 lg:px-8">
-        <div
+        {/* <div
           aria-hidden="true"
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
         >
@@ -15,7 +15,7 @@ const TechStack = () => {
             }}
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-white to-white opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
           />
-        </div>
+        </div> */}
         <div className="py-32">
           <div className="max-w-4xl px-2 mx-auto">
             <div className="text-white py-10 text-2xl">

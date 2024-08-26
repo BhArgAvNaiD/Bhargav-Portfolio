@@ -57,10 +57,10 @@ export default function MainNavbar() {
           </Link>
         </NavbarItem>
       </NavbarContent>
-      {/* <NavbarMenuToggle
+      <NavbarMenuToggle
         aria-label={isMenuOpen ? "Close menu" : "Open menu"}
         className="md:hidden"
-      /> */}
+      />
       <NavbarMenu className="bg-transparent flex justify-start pt-10 items-center">
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>

@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Link } from "@nextui-org/react";
+// import { Link } from "@nextui-org/react";
+import { Link } from "react-router-dom";
 export default function Example() {
   return (
     <div className="bg-white scroll-smooth" id="Home">
@@ -45,7 +46,7 @@ export default function Example() {
             <div className="mt-10 flex gap-x-6">
               <a
                 href="https://drive.google.com/file/d/1wnyEEi4Rx0xE53GzoviWG6U7Fyap7hhK/view?usp=sharing"
-                className="rounded-md bg-indigo-600 px-3.5 cursor-pointer py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-indigo-600 px-3.5 cursor-pointer py-2.5 text-sm font-semibold text-white "
               >
                 My Resume
               </a>
