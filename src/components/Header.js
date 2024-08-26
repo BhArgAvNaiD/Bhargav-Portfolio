@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function Example() {
   return (
-    <div className="bg-white">
+    <div className="bg-white scroll-smooth" id="Home">
       <div className="relative isolate px-6 lg:px-8">
         <div
           aria-hidden="true"
@@ -16,7 +16,7 @@ export default function Example() {
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
           />
         </div>
-        <div className="mx-auto max-w-4xl py-44">
+        <div className="mx-auto max-w-4xl py-20 sm:py-44">
           <div className="hidden sm:mb-5 sm:flex sm:justify-center">
             {/* <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               Announcing our next round of funding.{" "}
@@ -27,13 +27,13 @@ export default function Example() {
             </div> */}
           </div>
           <div className="text-left">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+            <h1 className="text-4xl sm:text-6xl font-bold tracking-tight text-gray-900">
               Hey !
             </h1>
-            <h1 className="text-4xl mt-2 font-bold tracking-tight text-gray-900 sm:text-6xl">
+            <h1 className="text-4xl sm:text-6xl mt-3 font-bold tracking-tight text-gray-900">
               I'm Bhargav Naidu
             </h1>
-            <h1 className="inline bg-gradient-to-r from-indigo-600 via-sky-500 to-indigo-400 bg-clip-text font-display text-5xl tracking-tight text-transparent mt-2 font-bold sm:text-6xl">
+            <h1 className="sm:text-6xl bg-gradient-to-r from-indigo-600 via-sky-500 to-indigo-400 bg-clip-text font-display text-4xl tracking-tight text-transparent mt-3 font-bold">
               Full-Stack Developer
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">

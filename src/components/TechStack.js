@@ -2,7 +2,7 @@ import React from "react";
 
 const TechStack = () => {
   return (
-    <div className="bg-indigo-600">
+    <div className="bg-indigo-600 scroll-smooth" id="Skills">
       <div className="relative isolate px-6 lg:px-8">
         <div
           aria-hidden="true"
@@ -16,100 +16,114 @@ const TechStack = () => {
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-white to-white opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
           />
         </div>
-        <div className="scroll-smooth scroll-m-24 py-32" id="Skills">
-          <div className="container mx-auto max-w-4xl px-5">
+        <div className="py-32">
+          <div className="max-w-4xl px-2 mx-auto">
             <div className="text-white py-10 text-2xl">
               <div className="flex flex-wrap gap-10 justify-start items-start">
-                <p className="font-bold text-white mb-5 text-center text-5xl underline w-full">
+                <p className="font-bold text-white mb-5 text-center text-3xl sm:text-4xl underline w-full">
                   TECH STACK
                 </p>
                 <div className="flex flex-col items-center">
-                  <div className="p-4 rounded-md bg-white">
+                  <div className="p-2 sm:p-4 rounded-md bg-white">
                     <i className="devicon-html5-plain colored text-6xl"></i>
                   </div>
-                  <span className="mt-2 text-[20px] font-semibold">HTML5</span>
+                  <span className="mt-2 text-[16px] sm:text-[20px] font-semibold">
+                    HTML5
+                  </span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="p-4 rounded-md bg-white">
+                  <div className="p-2 sm:p-4 rounded-md bg-white">
                     <i className="devicon-css3-plain colored text-6xl"></i>
                   </div>
-                  <span className="mt-2 text-[20px] font-semibold">CSS3</span>
+                  <span className="mt-2 text-[16px] sm:text-[20px] font-semibold">
+                    CSS3
+                  </span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="p-4 rounded-md bg-white">
+                  <div className="p-2 sm:p-4 rounded-md bg-white">
                     <i className="devicon-javascript-plain colored text-6xl"></i>
                   </div>
-                  <span className="mt-2 text-[20px] font-semibold">
+                  <span className="mt-2 text-[16px] sm:text-[20px] font-semibold">
                     JavaScript
                   </span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="p-4 rounded-md bg-white">
+                  <div className="p-2 sm:p-4 rounded-md bg-white">
                     <i className="devicon-c-line colored text-6xl"></i>
                   </div>
-                  <span className="mt-2 text-[20px] font-semibold">C</span>
+                  <span className="mt-2 text-[16px] sm:text-[20px] font-semibold">
+                    C
+                  </span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="p-4 rounded-md bg-white">
+                  <div className="p-2 sm:p-4 rounded-md bg-white">
                     <i className="devicon-java-plain colored text-6xl"></i>
                   </div>
-                  <span className="mt-2 text-[20px] font-semibold">Java</span>
+                  <span className="mt-2 text-[16px] sm:text-[20px] font-semibold">
+                    Java
+                  </span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="p-4 rounded-md bg-white">
+                  <div className="p-2 sm:p-4 rounded-md bg-white">
                     <i className="devicon-python-plain colored text-6xl"></i>
                   </div>
-                  <span className="mt-2 text-[20px] font-semibold">Python</span>
+                  <span className="mt-2 text-[16px] sm:text-[20px] font-semibold">
+                    Python
+                  </span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="p-4 rounded-md bg-white">
+                  <div className="p-2 sm:p-4 rounded-md bg-white">
                     <i className="devicon-react-original colored text-6xl"></i>
                   </div>
-                  <span className="mt-2 text-[20px] font-semibold">React</span>
+                  <span className="mt-2 text-[16px] sm:text-[20px] font-semibold">
+                    React
+                  </span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="p-4 rounded-md bg-white">
+                  <div className="p-2 sm:p-4 rounded-md bg-white">
                     <i className="devicon-nodejs-plain colored text-6xl"></i>
                   </div>
-                  <span className="mt-2 text-[20px] font-semibold">
+                  <span className="mt-2 text-[16px] sm:text-[20px] font-semibold">
                     Node.js
                   </span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="p-4 rounded-md bg-white">
+                  <div className="p-2 sm:p-4 rounded-md bg-white">
                     <i className="devicon-bootstrap-plain colored text-6xl"></i>
                   </div>
-                  <span className="mt-2 text-[20px] font-semibold">
+                  <span className="mt-2 text-[16px] sm:text-[20px] font-semibold">
                     Bootstrap
                   </span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="p-4 rounded-md bg-white">
+                  <div className="p-2 sm:p-4 rounded-md bg-white">
                     <i className="devicon-tailwindcss-plain colored text-6xl"></i>
                   </div>
-                  <span className="mt-2 text-[20px] font-semibold">
+                  <span className="mt-2 text-[16px] sm:text-[20px] font-semibold">
                     Tailwind CSS
                   </span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="p-4   rounded-md bg-white">
+                  <div className="p-2 sm:p-4  rounded-md bg-white">
                     <i className="devicon-mongodb-plain colored text-6xl"></i>
                   </div>
-                  <span className="mt-2 text-[20px] font-semibold">
+                  <span className="mt-2 text-[16px] sm:text-[20px] font-semibold">
                     MongoDB
                   </span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="p-4   rounded-md bg-white">
+                  <div className="p-2 sm:p-4  rounded-md bg-white">
                     <i className="devicon-mysql-plain-wordmark colored text-6xl"></i>
                   </div>
-                  <span className="mt-2 text-[20px] font-semibold">MySQL</span>
+                  <span className="mt-2 text-[16px] sm:text-[20px] font-semibold">
+                    MySQL
+                  </span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <div className="p-4 rounded-md bg-white">
+                  <div className="p-2 sm:p-4 rounded-md bg-white">
                     <i className="devicon-firebase-plain colored text-6xl"></i>
                   </div>
-                  <span className="mt-2 text-[20px] font-semibold">
+                  <span className="mt-2 text-[16px] sm:text-[20px] font-semibold">
                     Firebase
                   </span>
                 </div>

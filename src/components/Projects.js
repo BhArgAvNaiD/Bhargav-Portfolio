@@ -11,7 +11,7 @@ import {
 
 export default function Projects() {
   return (
-    <div className="bg-indigo-600">
+    <div className="bg-indigo-600 scroll-smooth" id="Projects">
       <div className="relative isolate px-6 lg:px-8">
         <div
           aria-hidden="true"
@@ -27,10 +27,10 @@ export default function Projects() {
         </div>
       </div>
       <div className="max-w-4xl mx-auto py-36">
-        <div className="text-center font-bold text-4xl underline text-white">
+        <div className="text-center font-bold text-3xl sm:text-4xl underline text-white">
           PROJECTS
         </div>
-        <div className="flex justify-between flex-wrap mt-16">
+        <div className="flex justify-between flex-wrap gap-5 px-5 mt-16">
           <Card className="max-w-[400px]">
             <CardHeader className="flex gap-3">
               {/* <Image
@@ -63,6 +63,7 @@ export default function Projects() {
                 isExternal
                 showAnchorIcon
                 href="https://github.com/maradabhargavnaidu/nextui"
+                className="cursor-pointer"
               >
                 GitHub.
               </Link>
@@ -70,6 +71,7 @@ export default function Projects() {
                 isExternal
                 showAnchorIcon
                 href="https://yaatra.onrender.com/"
+                className="cursor-pointer"
               >
                 Live.
               </Link>
@@ -105,7 +107,8 @@ export default function Projects() {
               <Link
                 isExternal
                 showAnchorIcon
-                href="https://github.com/maradabhargavnaidu/nextui"
+                to="https://github.com/maradabhargavnaidu/nextui"
+                className="cursor-pointer"
               >
                 GitHub.
               </Link>
@@ -113,6 +116,7 @@ export default function Projects() {
                 isExternal
                 showAnchorIcon
                 href="https://yaatra.onrender.com/"
+                className="cursor-pointer"
               >
                 Live.
               </Link>

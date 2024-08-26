@@ -14,12 +14,17 @@ import {
 export default function MainNavbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = ["HOME", "ABOUT", "SKILLS", "PROJECTS"];
+  const menuItems = [
+    { tag: "HOME", too: "/#Home" },
+    { tag: "Work", too: "/#Work" },
+    { tag: "SKILLS", too: "/#Skills" },
+    { tag: "PROJECTS", too: "/Projects" },
+  ];
 
   return (
     <Navbar
       onMenuOpenChange={setIsMenuOpen}
-      className="bg-white text-black m-0 w-full"
+      className="bg-transparent shadow-sm shadow-slate-400 text-black m-0 w-full scroll-smooth"
     >
       <NavbarContent>
         <NavbarMenuToggle
@@ -34,32 +39,37 @@ export default function MainNavbar() {
 
       <NavbarContent className="md:flex gap-4 hidden" justify="end">
         <NavbarItem>
-          <Link href="#" className="text-black text-md font-bold">
+          <Link href="/#Home" className="text-black text-md font-bold">
             HOME
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href="#" className="text-black text-md font-bold">
-            ABOUT
+          <Link href="/#Work" className="text-black text-md font-bold">
+            WORK
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href="#" className="text-black text-md font-bold">
+          <Link href="/#Skills" className="text-black text-md font-bold">
             SKILLS
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href="#" className="text-black text-md font-bold">
+          <Link href="/#Projects" className="text-black text-md font-bold">
             PROJECTS
           </Link>
         </NavbarItem>
       </NavbarContent>
 
-      <NavbarMenu className="bg-black">
+      <NavbarMenu className="bg-transparent">
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
-            <Link className="w-full text-white font-bold" href="#" size="lg">
-              {item}
+            <Link
+              to={item.too}
+              className="w-full text-black font-bold"
+              href="#"
+              size="lg"
+            >
+              {item.tag}
             </Link>
           </NavbarMenuItem>
         ))}
