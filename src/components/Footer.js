@@ -1,5 +1,5 @@
 import React from "react";
-
+import Leetcode from "../images/leetcode.png";
 const Footer = () => {
   return (
     <div className="bg-white scroll-smooth" id="Home">

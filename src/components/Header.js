@@ -1,6 +1,5 @@
 import { useState } from "react";
-// import { Link } from "@nextui-org/react";
-import { Link } from "react-router-dom";
+import { Link } from "@nextui-org/react";
 export default function Example() {
   return (
     <div className="bg-white scroll-smooth" id="Home">
@@ -41,7 +40,16 @@ export default function Example() {
               I am a Full Stack Web Developer with experience as a Web Developer
               Intern at SkyGoal Innova Technologies Pvt Ltd. Currently, I am
               focused on mastering Data Structures and Algorithms, having solved
-              over 650 problems on LeetCode with a contest rating of 1596.
+              over 650 problems on{" "}
+              <Link
+                isExternal
+                showAnchorIcon
+                href="https://leetcode.com/u/BHASAH1829"
+                className="cursor-pointer"
+              >
+                LeetCode
+              </Link>
+              with a contest rating of 1596.
             </p>
             <div className="mt-10 flex gap-x-6">
               <a

@@ -100,7 +100,7 @@ const TechStack = () => {
                     <i className="devicon-tailwindcss-plain colored text-6xl"></i>
                   </div>
                   <span className="mt-2 text-[16px] sm:text-[20px] font-semibold">
-                    Tailwind CSS
+                    Tailwind
                   </span>
                 </div>
                 <div className="flex flex-col items-center">
